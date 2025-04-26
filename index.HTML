@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <title>Tic-Tac-Toe</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <h1 class="mt-3" style="text-align:center;">Tic-Tac-Toe</h1>
+  <div class="row">
+
+    <div class="col-sm-6">
+      <div id="choice" class="container mt-5" style="display: block;">
+        <h2 class="mt-3 m-5">Choose your side</h2>
+        <button id="X" class="current-player col-sm-4 btn">X</button>
+        <button id="O" class="current-player col-sm-4 btn">O</button>
+      </div>
+      <div id="game-board" class="container justify-content-center">
+        <div class="cell" data-index="0"></div>
+        <div class="cell" data-index="1"></div>
+        <div class="cell" data-index="2"></div>
+        <div class="cell" data-index="3"></div>
+        <div class="cell" data-index="4"></div>
+        <div class="cell" data-index="5"></div>
+        <div class="cell" data-index="6"></div>
+        <div class="cell" data-index="7"></div>
+        <div class="cell" data-index="8"></div>
+      </div>
+    </div>
+    <div class="justify-content-start col-sm-6">
+      <div id="score-board" class="mt-2">
+        <p>Player Wins: <span id="player-score">0</span></p>
+        <p>Computer Wins: <span id="computer-score">0</span></p>
+        <p>Match Draw: <span id="match-draw">0</span></p>
+        <p class="total">Total Match: <span id="total-match">0</span></p>
+      </div>
+      <div id="winner-message" class="container btn">
+        <button id="restart-button" class="start">Start</button>
+      </div>
+    </div>
+    <marquee id="slide">
+      <pre>This is Tic-Tac-Toe Game ! Create By Kandhal Shakil</pre>
+    </marquee>
+  </div>
+  <p class="mail">For any query, Contact me:
+    <a href="mailto:kandhalshakil098@gmaill.com?subject=Hello%20there&body=I%20would%20like%20to%20inquire%20about...">Send
+      Email</a>
+  </p>
+  <script src="script.js"></script>
+</body>
+</html>
