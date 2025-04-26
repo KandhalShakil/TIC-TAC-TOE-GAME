@@ -12,7 +12,6 @@ This project delivers a fresh yet traditionally rooted version of the classic Ti
 - [Tech Stack](#tech-stack)
 - [Setup Instructions](#setup-instructions)
 - [How to Play](#how-to-play)
-- [Screenshots](#screenshots)
 - [Project Structure](#project-structure)
 - [Contact](#contact)
 
